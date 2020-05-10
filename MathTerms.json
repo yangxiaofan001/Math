@@ -1,0 +1,83 @@
+[
+	{
+		"English" : "Complementary angles",
+		"Chinese" : "余角",
+		"Explanation": "a and b are complementary angles if a + b = 90"
+	},
+	{
+		"English" : "Supplementaty angles",
+		"Chinese" : "补角",
+		"Explanation": "a and b are complementary angles if a + b = 180"
+	},
+	{
+		"English" : "scalene",
+		"Chinese" : "斜角",
+		"Explanation": "斜角是锐角和钝角的统称. an angle that is not 90"
+	},
+	{
+		"English" : "scalene triangle",
+		"Chinese" : "斜角三角形",
+		"Explanation": "三个角都不是直角的三角形。a triangle that non of the 3 angles is 90"
+	},
+	{
+		"English" : "isosceles triangle",
+		"Chinese" : "等腰三角形",
+		"Explanation": "斜角是锐角和钝角的统称. an angle that is not 90"
+	},
+	{
+		"English" : "Quadrilateral",
+		"Chinese" : "四边形",
+		"Explanation": ""
+	},
+	{
+		"English" : "Rectangle",
+		"Chinese" : "矩形",
+		"Explanation": ""
+	},
+	{
+		"English" : "square",
+		"Chinese" : "方形",
+		"Explanation": ""
+	},
+	{
+		"English" : "Rhombus",
+		"Chinese" : "菱形",
+		"Explanation": "四边长相等的平行四边形"
+	},
+	{
+		"English" : "Parallelogram",
+		"Chinese" : "平行四边形",
+		"Explanation": ""
+	},
+	{
+		"English" : "Vertex",
+		"Chinese" : "顶点",
+		"Explanation": ""
+	},
+	{
+		"English" : "Acute angle",
+		"Chinese" : "锐角",
+		"Explanation": ""
+	},
+	{
+		"English" : "Obtuse angle",
+		"Chinese" : "钝角",
+		"Explanation": ""
+	},
+	{
+		"English" : "Right angle",
+		"Chinese" : "直角",
+		"Explanation": ""
+	},
+	{
+		"English" : "First quadrant",
+		"Chinese" : "第一象限",
+		"Explanation": ""
+	},
+	{
+		"English" : "x-axis",
+		"Chinese" : "x轴",
+		"Explanation": ""
+	}
+]
+		
