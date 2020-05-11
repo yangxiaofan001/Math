@@ -78,6 +78,101 @@
 		"English" : "x-axis",
 		"Chinese" : "x轴",
 		"Explanation": ""
+	},
+	{
+		"English" : "Rigid transformation",
+		"Chinese" : "刚性转换",
+		"Explanation": "a rigid transformation (also called Euclidean transformation or Euclidean isometry) is a geometric transformation of a Euclidean space that preserves the Euclidean distance between every pair of points. The rigid transformations include rotations, translations, reflections, or their combination. "
+	},
+	{
+		"English" : "Prism",
+		"Chinese" : "棱柱",
+		"Explanation": "三维多面体，指平面上的一个多边形平行投影到与该平面平行的平面所截得的封闭几何体"
+	},
+	{
+		"English" : "Congruence",
+		"Chinese" : "全等",
+		"Explanation": "在几何中，全等是几何图形之间的一种合同，亦即几何图形之间的一种等价关系。 若两个几何图形的形状、大小完全相同，则称这两个图形是全等的图形。"
+	},
+	{
+		"English" : "Proportionality",
+		"Chinese" : "比例",
+		"Explanation": "在数学中，比例是两个非零数量与之间的比较关系"
+	},
+	{
+		"English" : "Pythagorean theorem",
+		"Chinese" : "勾股定理",
+		"Explanation": "平面上的直角三角形的两条直角边的长度的平方和等于斜边长的平方"
+	},
+	{
+		"English" : "Parabola",
+		"Chinese" : "抛物线",
+		"Explanation": "The x-coordinate of the vertex of a parabola in the form ax^2+bx+c is −b/2a."
+	},
+	{
+		"English" : "Inverse function",
+		"Chinese" : "反函数",
+		"Explanation": "In mathematics, an inverse function (or anti-function) is a function that \"reverses\" another function."
+	},
+	{
+		"English" : "Hypotenuse",
+		"Chinese" : "斜边(弦)",
+		"Explanation": "In geometry, a hypotenuse is the longest side of a right-angled triangle, the side opposite the right angle."
+	},
+	{
+		"English" : "trapezoid",
+		"Chinese" : "梯形",
+		"Explanation": ""
+	},
+	{
+		"English" : "Isosceles trapezoid",
+		"Chinese" : "等腰梯形",
+		"Explanation": "在几何学中，等腰梯形是一种凸四边形，其存在一对互相平行的边和一个能把这对边平分的对称轴，为梯形中的一个特例。"
+	},
+	{
+		"English" : "Perpendicular",
+		"Chinese" : "垂直",
+		"Explanation": ""
+	},
+	{
+		"English" : "Trigonometric ratios (Trigonometric functions)",
+		"Chinese" : "三角函数",
+		"Explanation": "There are six trigonometric ratios, sine, cosine, tangent, cosecant, secant and cotangent"
+	},
+	{
+		"English" : "central angle (θ) measured in radians",
+		"Chinese" : "圆心角",
+		"Explanation": "A central angle is the angle that forms when two radii meet at the center of a circle. A central angle (θ) measured in radians tells us how many times the radius fits into the arc."
+	},
+	{
+		"English" : "central angle (θ) measured in radians",
+		"Chinese" : "inscribed",
+		"Explanation": "内接的平面形状或固体是被另一几何形状或固体包围并“紧贴”在另一几何形状或固体内部的形状."
+	},
+	{
+		"English" : "Law of cosines",
+		"Chinese" : "余弦定理",
+		"Explanation": "c2 = a2 + b2 − 2ab cos(C)"
+	},
+	{
+		"English" : "Cone",
+		"Chinese" : "圆锥",
+		"Explanation": ""
+	},
+	{
+		"English" : "translation transformation",
+		"Chinese" : "平移",
+		"Explanation": ""
+	},
+	{
+		"English" : "Angle bisector theorem",
+		"Chinese" : "角平分线定理",
+		"Explanation": "an angle bisector of a triangle will divide the opposite side into two segments that are proportional to the other two sides of the triangle. "
+	},
+	{
+		"English" : "Tangent lines to circles",
+		"Chinese" : "切线",
+		"Explanation": "an angle bisector of a triangle will divide the opposite side into two segments that are proportional to the other two sides of the triangle. "
 	}
 ]
 		
