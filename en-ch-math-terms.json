@@ -110,6 +110,26 @@
 		"Explanation": "The x-coordinate of the vertex of a parabola in the form ax^2+bx+c is −b/2a."
 	},
 	{
+		"English" : "Quadratic function",
+		"Chinese" : "二次函数",
+		"Explanation": "y=ax^2+bx+c"
+	},
+	{
+		"English" : "Polynomial",
+		"Chinese" : "多项式",
+		"Explanation": "ax^3+bx^2+cx+d 四项一元三次多项式, x^3 - 2y + z 三项三元三次多项式。count of Coefficient:项；count of variables(indeterminates): 元；max exponent: 次"
+	},
+	{
+		"English" : "Coefficient",
+		"Chinese" : "系数",
+		"Explanation": ""
+	},
+	{
+		"English" : "Exponential decay",
+		"Chinese" : "指数衰减",
+		"Explanation": "某个量的下降速度和它的值成比例，称之为服从指数衰减"
+	},
+	{
 		"English" : "Inverse function",
 		"Chinese" : "反函数",
 		"Explanation": "In mathematics, an inverse function (or anti-function) is a function that \"reverses\" another function."
