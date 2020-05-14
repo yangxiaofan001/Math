@@ -22,7 +22,12 @@
 	{
 		"English" : "isosceles triangle",
 		"Chinese" : "等腰三角形",
-		"Explanation": "斜角是锐角和钝角的统称. an angle that is not 90"
+		"Explanation": "两个边相等"
+	},
+	{
+		"English" : "equilateral triangle",
+		"Chinese" : "全等三角形",
+		"Explanation": "60 + 60 +60"
 	},
 	{
 		"English" : "Quadrilateral",
@@ -50,11 +55,6 @@
 		"Explanation": ""
 	},
 	{
-		"English" : "Vertex",
-		"Chinese" : "顶点",
-		"Explanation": ""
-	},
-	{
 		"English" : "Acute angle",
 		"Chinese" : "锐角",
 		"Explanation": ""
@@ -75,14 +75,51 @@
 		"Explanation": ""
 	},
 	{
+		"English" : "quadrant",
+		"Chinese" : "象限",
+		"Explanation": ""
+	},
+	{
 		"English" : "x-axis",
 		"Chinese" : "x轴",
 		"Explanation": ""
 	},
 	{
+		"English" : "dialation",
+		"Chinese" : "扩张",
+		"Explanation": "",
+		"Notes" :
+		[
+			"Dilations change the size but not the shape of an object or figure. ",
+			"Every dilation of a Euclidean space that is not a congruence has a unique fixed point[3] that is called the center of dilation."
+		]
+	},
+	{
+		"English" : "rotation transformation",
+		"Chinese" : "旋转",
+		"Explanation": "rotate about point p for x degrees",
+		"Notes":
+		[
+			"The quadrant numbers increase as we move counterclockwise. We measure angles the same way to be consistent. =>",
+			"positive angle measures describe counterclockwise rotations"
+		]
+	},
+	{
+		"English" : "translation transformation",
+		"Chinese" : "平移",
+		"Explanation": ""
+	},
+	{
 		"English" : "Rigid transformation",
 		"Chinese" : "刚性转换",
-		"Explanation": "a rigid transformation (also called Euclidean transformation or Euclidean isometry) is a geometric transformation of a Euclidean space that preserves the Euclidean distance between every pair of points. The rigid transformations include rotations, translations, reflections, or their combination. "
+		"Explanation": "a rigid transformation (also called Euclidean transformation or Euclidean isometry) is a geometric transformation of a Euclidean space that preserves the Euclidean distance between every pair of points. The rigid transformations include rotations, translations, reflections, or their combination. ",
+		"Notes":
+		[
+			"rotations 旋转", 
+			"translations 平移",
+			"reflection 反射",
+			"rigid transformation does not change length of sizes, angles"
+		]
 	},
 	{
 		"English" : "Prism",
@@ -107,17 +144,78 @@
 	{
 		"English" : "Parabola",
 		"Chinese" : "抛物线",
-		"Explanation": "The x-coordinate of the vertex of a parabola in the form ax^2+bx+c is −b/2a."
+		"Explanation": "The x-coordinate of the vertex of a parabola in the form ax^2+bx+c is −b/2a.",
+		"RelatedTerms" : ["Quadratic function", "Vertex"],
+		"Notes" : 
+		[
+			"Open up(ward): the vertex has the minimum y value",
+			"Open down(ward): the vertext has the maximum y value",
+			"x axis intervepts are symmetric around the axis symmetry",
+			"axis symmetry is the line x = c",
+			"From the quardratic formula =>",
+			"the x in the vertix can be determined: -b/2a =>",
+			"so the y in vertex is f(x) = -b^2 / 4a + c =>",
+			"f(x+1) = a - b^2/4a + c =>",
+			"f(x+1) - f(x) = a =>",
+			"Parabola is upward when a > 0",
+			"Parabola is downward when a < 0"
+		]
+	},
+	{
+		"English" : "Vertex",
+		"Chinese" : "顶点",
+		"Explanation": "",
+		"Notes":
+		[
+			"Vertex form of a quadratic equation: y = ax^2 + bx + c can be written as y = a(x+b)^2+c,",
+			"Find the vertex of the parabola: write the quardratic function in vertex term, then solve it",
+			"From the quardratic formula, the x in the vertix can be determined: -b/2a"
+		]
 	},
 	{
 		"English" : "Quadratic function",
 		"Chinese" : "二次函数",
-		"Explanation": "y=ax^2+bx+c"
+		"Explanation": "y=ax^2+bx+c. One var, 3 terms, 2 degree function",
+		"RelatedTerms" : ["Discriminant"],
+		"Notes":
+			[
+				"The quardratic formula: in ax^2+bx+c=0 => x = (-b (+-) sqrt(b^2-4ac))/2a",
+				"ax^2 + bx + c = 0",
+				"multiply by 4a on each side: ",
+				"4a^2x^2 + 4abx + 4ac = 0 =>",
+				"add b^2 to each side: ", 
+				"4a^2x^2 + 4abx + b^2 = b^2 - 4ac =>", 
+				"(2ax + b)^2 = b^2 - 4ac =>",
+				"2ax + b = (+-)sqrt(b^2 - 4ac) =>",
+				"x = (-b (+-) sqrt(b^2 - 4ac)) / 2a"
+			]
+	},
+	{
+		"English" : "Discriminant",
+		"Chinese" : "判别式",
+		"Explanation": "The discriminant is the part under the square root in the quadratic formula, b²-4ac.",
+		"RelatedTerms" : ["The quardratic formula"],
+		"Notes":
+			[
+				"A positive discriminant indicates that the quadratic has two distinct real number solutions.",
+				"A discriminant of zero indicates that the quadratic has a single real number solution.",
+				"A negative discriminant indicates that neither of the solutions are real numbers."
+			]
 	},
 	{
 		"English" : "Polynomial",
 		"Chinese" : "多项式",
-		"Explanation": "ax^3+bx^2+cx+d 四项一元三次多项式, x^3 - 2y + z 三项三元三次多项式。count of Coefficient:项；count of variables(indeterminates): 元；max exponent: 次"
+		"Explanation": "ax^3+bx^2+cx+d 四项一元三次多项式, x^3 - 2y + z 三项三元三次多项式。count of Coefficient:项；count of variables(indeterminates): 元；max exponent: 次",
+		"Notes":
+		[
+			"a polynomial is the sum of various number of terms, each term is a coefficient times a variable raised to the power of a non negative integer.",
+			"when a polynomial only has one term, it is called a monomial: ax, (Pi)r^2, ... - 单项",
+			"when a polynomial has two terms, it is called a binomial: 2x + y, 3x^8 + 4x,... - 二项",
+			"when a polynomial has three terms, it is called a trinomial: 2x + y, 3x^8 + 4x,... - 三项",
+			"the degree of a polynomial is the highest degree of all the terms - 次",
+			"standard form - write the polynomio in the order of the degree, higest first - 10x^7 + 2x&2 + 9",
+			""
+		]
 	},
 	{
 		"English" : "Coefficient",
@@ -132,7 +230,11 @@
 	{
 		"English" : "Inverse function",
 		"Chinese" : "反函数",
-		"Explanation": "In mathematics, an inverse function (or anti-function) is a function that \"reverses\" another function."
+		"Explanation": "In mathematics, an inverse function (or anti-function) is a function that \"reverses\" another function.",
+		"Notes" : 
+			[
+				"f(x) and f^(-1)(x) are reflections across line y = x"
+			]
 	},
 	{
 		"English" : "Hypotenuse",
@@ -170,11 +272,6 @@
 		"Explanation": "内接的平面形状或固体是被另一几何形状或固体包围并“紧贴”在另一几何形状或固体内部的形状."
 	},
 	{
-		"English" : "Law of cosines",
-		"Chinese" : "余弦定理",
-		"Explanation": "c2 = a2 + b2 − 2ab cos(C)"
-	},
-	{
 		"English" : "Cone",
 		"Chinese" : "圆锥",
 		"Explanation": ""
@@ -193,6 +290,165 @@
 		"English" : "Tangent lines to circles",
 		"Chinese" : "切线",
 		"Explanation": "an angle bisector of a triangle will divide the opposite side into two segments that are proportional to the other two sides of the triangle. "
+	},
+	{
+		"English" : "algebra",
+		"Chinese" : "代数",
+		"Explanation": ""
+	},
+	{
+		"English" : "Cartesian coordinate system",
+		"Chinese" : "笛卡尔坐标系",
+		"Explanation": ""
+	},
+	{
+		"English" : "Geometry",
+		"Chinese" : "几何",
+		"Explanation": ""
+	},
+	{
+		"English" : "Linear equation",
+		"Chinese" : "一次方程",
+		"Explanation": ""
+	},
+	{
+		"English" : "Indeterminate",
+		"Chinese" : "不确定性",
+		"Explanation": "在数学中，特别是在形式代数中，不确定性是被视为变量的符号，除了本身以外，它不代表其他任何东西，并且通常在多项式和形式幂级数等对象中用作占位符。尤其是： 它没有指定问题的常数或参数。这不是一个可以解决的未知数。它不是指定函数参数的变量，也不是求和或积分的变量。它不是任何类型的绑定变量。它只是一个完全正式使用的符号。"
+	},
+	{
+		"English" : "Slope",
+		"Chinese" : "斜率",
+		"Explanation": "in y = ax + b, a is the slope"
+	},
+	{
+		"English" : "Domain of a function",
+		"Chinese" : "定义域",
+		"Explanation": "定义域，是函数自变量所有可取值的集合"
+	},
+	{
+		"English" : "Range of a function",
+		"Chinese" : "值域",
+		"Explanation": "函数的值域是由定义域中一切元素所能产生的所有函数值的集合"
+	},
+	{
+		"English" : "radical",
+		"Chinese" : "方根 (nth root)",
+		"Explanation": ""
+	},
+	{
+		"English" : "Monomial",
+		"Chinese" : "单项式",
+		"Explanation": "A polynomial with just one term. y = x^4"
+	},
+	{
+		"English" : "Greatest common divisor (GCF)",
+		"Chinese" : "最大公因数",
+		"Explanation": ""
+	},
+	{
+		"English" : "irrational number",
+		"Chinese" : "无理数",
+		"Explanation": "a number that cannot be represented by a/b where a and b are integers",
+		"Notes":
+		[
+			"square roots of prime numbers are irrational"
+		]
+	},
+	{
+		"English" : "Circumference",
+		"Chinese" : "圆周",
+		"Explanation": "2πr"
+	},
+	{
+		"English" : "sin",
+		"Chinese" : "正弦",
+		"Explanation": "角正对直角边长/斜边长",
+		"Notes":
+		[
+			"sin(X degrees) = y / r in coordinate system",
+			"sin(30) = sin(150) = - sin(210) = -sin(330)"
+		]
+	},
+	{
+		"English" : "cos",
+		"Chinese" : "正弦",
+		"Explanation": "角邻直角边长/斜边长",
+		"Notes":
+		[
+			"sin(X degrees) = x / r in coordinate system",
+			"cos(30) = cos(330) = -cos(150) = - cos(210)"
+		]
+	},
+	{
+		"English" : "tan",
+		"Chinese" : "正切",
+		"Explanation": "角正对直角边长/角邻直角边长"
+	},
+	{
+		"English" : "cot",
+		"Chinese" : "余切",
+		"Explanation": "角邻直角边长/角正对直角边长"
+	},
+	{
+		"English" : "arcsin (sin^-1)",
+		"Chinese" : "反正弦",
+		"Explanation": "inverse function of sin, use to find an angle"
+	},
+	{
+		"English" : "arccos (cos^-1)",
+		"Chinese" : "反余弦",
+		"Explanation": "inverse function of cos, use to find an angle"
+	},
+	{
+		"English" : "arctan (tan^-1)",
+		"Chinese" : "反正切",
+		"Explanation": "inverse function of tan, use to find an angle"
+	},
+	{
+		"English" : "arccot (cot^-1)",
+		"Chinese" : "反正切",
+		"Explanation": "inverse function of cot, use to find an angle"
+	},
+	{
+		"English" : "Trigonometric functions (Trigonometric ratios)",
+		"Chinese" : "三角函数",
+		"Explanation": ""
+	},
+	{
+		"English" : "postulate (axiom)",
+		"Chinese" : "公理",
+		"Explanation": ""
+	},
+	{
+		"English" : "axiom (postulate)",
+		"Chinese" : "公理",
+		"Explanation": ""
+	},
+	{
+		"English" : "SSS postulate/criterion ",
+		"Chinese" : "side-side-side 公理",
+		"Explanation": "two triangles, three sides euqal, then they are Congruent"
+	},
+	{
+		"English" : "SAS postulate/criterion ",
+		"Chinese" : "side-angle-side 公理",
+		"Explanation": "two triangles, two sides are qual, the angel between them equal, then they are Congruent"
+	},
+	{
+		"English" : "AAS postulate/criterion ",
+		"Chinese" : "angle-angle-side 公理",
+		"Explanation": "two triangles, two angles and one side euqal, then they are Congruent"
+	},
+	{
+		"English" : "Law of sines",
+		"Chinese" : "正弦定理",
+		"Explanation": "a / sin(A) = b / sin(B) = c / sin(C)"
+	},
+	{
+		"English" : "Law of cosines",
+		"Chinese" : "余弦定理",
+		"Explanation": "c2 = a2 + b2 − 2ab cos(C)"
 	}
 ]
 		
