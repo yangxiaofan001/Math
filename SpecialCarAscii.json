@@ -1,0 +1,84 @@
+
+[
+	{
+		"char" : "α",
+		"ascii" : "Alt 224",
+		"reads" : "Alpha"
+	},
+	{
+		"char" : "ß",
+		"ascii" : "Alt 225",
+		"reads" : "Beta"
+	},
+	{
+		"char" : "Γ",
+		"ascii" : "Alt 226",
+		"reads" : "Gamma"
+	},
+	{
+		"char" : "δ",
+		"ascii" : "Alt 235",
+		"reads" : "Delta"
+	},
+	{
+		"char" : "ε",
+		"ascii" : "Alt 238",
+		"reads" : "Epsilon"
+	},
+	{
+		"char" : "Θ",
+		"ascii" : "Alt 233",
+		"reads" : "Theta"
+	},
+	{
+		"char" : "π",
+		"ascii" : "Alt 227",
+		"reads" : "Π"
+	},
+	{
+		"char" : "µ",
+		"ascii" : "Alt 230",
+		"reads" : "Mu"
+	},
+	{
+		"char" : "Σ",
+		"ascii" : "Alt 228",
+		"reads" : "Uppercase Sigma"
+	},
+	{
+		"char" : "σ",
+		"ascii" : "Alt 229",
+		"reads" : "Lowercase Sigma"
+	},
+	{
+		"char" : "τ",
+		"ascii" : "Alt 231",
+		"reads" : "Tau"
+	},
+	{
+		"char" : "Φ",
+		"ascii" : "Alt 232",
+		"reads" : "Uppercase Phi"
+	},
+	{
+		"char" : "φ",
+		"ascii" : "Alt 237",
+		"reads" : "Lowercase Phi"
+	},
+	{
+		"char" : "Ω",
+		"ascii" : "Alt 234",
+		"reads" : "Omega"
+	},
+	{
+		"char" : "°",
+		"ascii" : "Alt 248",
+		"reads" : "Degree"
+	},
+	{
+		"char" : "θ",
+		"ascii" : "",
+		"reads" : "Lowercase theta"
+	},
+]
+

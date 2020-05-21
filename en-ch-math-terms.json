@@ -449,6 +449,80 @@
 		"English" : "Law of cosines",
 		"Chinese" : "余弦定理",
 		"Explanation": "c2 = a2 + b2 − 2ab cos(C)"
+	},
+	{
+		"English" : "Inscribed triangle",
+		"Chinese" : "内接三角形",
+		"Explanation": "三个顶点都是圆周上的点",
+		"Notes":
+		[
+			"<BAC = 2 * <BOC, A B C are the vertexes of the inscribed triangle, o is the center of the circle",
+			"BC is a side of the inscribed triangle, d is a point on BC, if OD is perpendicular to BC, then BD = CD"
+		]
+	},
+	{
+		"English" : "Tangent",
+		"Chinese" : "切线",
+		"Explanation": "",
+		"Notes" :
+		[
+			"Radius is perpendicular to tangent",
+			"Two segments tangent to circle from outside point are congruent"
+		]
+	},
+	{
+		"English" : "Circurmscribed angle",
+		"Chinese" : "外切角",
+		"Explanation": "Two sides of the angle both are tangents"
+	},
+	{
+		"English" : "Median",
+		"Chinese" : "中位数",
+		"Explanation": "the middle number of a sorted list of numbers"
+	},
+	{
+		"English" : "Quartile",
+		"Chinese" : "四分位数",
+		"Explanation": "四分位数是统计学中分位数的一种，即把所有数值由小到大排列并分成四等份，处于三个分割点位置的数值就是四分位数"
+	},
+	{
+		"English" : "Outlier",
+		"Chinese" : "异常值",
+		"Explanation": "统计学中，把所有数值由小到大排列，处于 far left or far right"
+	},
+	{
+		"English" : "Cluster",
+		"Chinese" : "集群",
+		"Explanation": "Cluster sampling is used in statistics when natural groups are present in a population. "
+	},
+	{
+		"English" : "midrange",
+		"Chinese" : "中等范围",
+		"Explanation": "mean (average) of the highest and lowest number in a llist of numbers"
+	},
+	{
+		"English" : "mode",
+		"Chinese" : "众数",
+		"Explanation": "most common number in a list of numbers"
+	},
+	{
+		"English" : "range",
+		"Chinese" : "取值范围",
+		"Explanation": "the difference between the highest number and the llowest number"
+	},
+	{
+		"English" : "Marginal distribution",
+		"Chinese" : "边缘分布",
+		"Explanation": "In probability theory and statistics, the marginal distribution of a subset of a collection of random variables is the probability distribution of the variables contained in the subset. It gives the probabilities of various values of the variables in the subset without reference to the values of the other variables."
+	},
+	{
+		"English" : "Marginal distribution",
+		"Chinese" : "条件概率分布",
+		"Explanation": "A conditional distribution is a probability distribution for a sub-population. In other words, it shows the probability that a randomly selected item in a sub-population has a characteristic you're interested in.",
+		"Notes" :
+		[
+			"The conventions is in percentage, not numbers"
+		]
 	}
 ]
 		
