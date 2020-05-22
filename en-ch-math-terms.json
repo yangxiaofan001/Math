@@ -523,6 +523,11 @@
 		[
 			"The conventions is in percentage, not numbers"
 		]
+	},
+	{
+		"English" : "combinatorics",
+		"Chinese" : "组合数学",
+		"Explanation": "广义的组合数学就是离散数学，狭义的组合数学是组合计数、图论、代数结构、数理逻辑等的总称。."
 	}
 ]
 		
